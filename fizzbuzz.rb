@@ -4,12 +4,12 @@
 def fizzbuzz(i)
   
  if i % 5 == 0 and i % 3 == 0
-        puts "FizzBuzz"
+        return "FizzBuzz"
       elsif i % 5 == 0
-        puts "Buzz"
+        return "Buzz"
       elsif i % 3 == 0
-        puts "Fizz"
+        return "Fizz"
       else
-        puts i
+        return NIL
       end
     end
