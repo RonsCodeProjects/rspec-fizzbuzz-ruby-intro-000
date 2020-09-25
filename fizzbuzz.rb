@@ -15,7 +15,8 @@ def fizzbuzz(num)
 
     "FizzBuzz"
     
-  else 
+  else
+    
     num
   end
   
