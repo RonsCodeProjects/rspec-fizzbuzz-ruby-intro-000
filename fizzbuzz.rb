@@ -5,15 +5,15 @@ def fizzbuzz(num)
   
   If num % 3 == 0 
   
-    "Fizz"
+    puts "Fizz"
     
   elseif num % 5 == 0
 
-    "Buzz"
+    puts "Buzz"
     
-  elseif num % 5 == 0 && num % 3 == 0
+  elseif (num % 5 == 0 && num % 3 == 0)
 
-    "FizzBuzz"
+    puts "FizzBuzz"
     
   end
   
