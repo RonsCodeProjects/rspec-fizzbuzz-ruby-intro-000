@@ -15,10 +15,6 @@ def fizzbuzz(num)
 
     "FizzBuzz"
     
-  else
-    
-     " "
-  
   end
   
 end
