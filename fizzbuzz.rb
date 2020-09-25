@@ -12,5 +12,3 @@ def fizzbuzz(i)
       else
         puts i
       end
-      
-END
