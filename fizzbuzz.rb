@@ -7,10 +7,15 @@ def fizzbuzz(num)
   
     "Fizz"
     
-  elseif int % 5 == 0
+  elseif num % 5 == 0
 
     "Buzz"
     
-  elseif 
-  
+  elseif num % 5 == 0 && num % 3 == 0
+
+    "FizzBuzz"
+    
+  else 
+    num
+  end
 end
